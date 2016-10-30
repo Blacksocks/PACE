@@ -1,0 +1,370 @@
+/* BODY */
+
+#body{
+	background-color: #222;
+	background-image: url("../img/bkgnd/polyRed.png");
+    	min-height: 500px;
+        min-width: 300px;
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	text-align: justify;
+}
+.body{
+	min-height: 500px;
+	margin: 200px 12% 0 12%;
+	padding: 30px 6% 70px 6%;
+	background-color: rgba(255, 255, 255, 0.9);
+	box-shadow: inset 0 0 10px #555;
+}
+@media (max-width:1000px) {
+#body{
+	font-size: 12px;
+}
+}
+@media (max-width:700px) {
+.body{
+	margin: 50px 0 0 0;
+    	background: #FFF;
+}
+#body{
+	background: none;
+}
+}
+
+/* LINKS */
+
+a{
+	cursor: pointer;
+}
+
+/* FONTS */
+
+.alinea{
+	text-indent: 50px;
+}
+@media (max-width:1000px) {
+h1{
+	font-size: 22px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 18px;
+}
+h4{
+	font-size: 14px;
+}
+h5{
+	font-size: 12px;
+}
+}
+
+/* HR */
+
+hr{
+	border-color: #555;
+}
+
+/* IMAGES */
+
+img.margin{
+	margin: 6px 16px;
+}
+img.tinySize{
+	max-width: 200px;
+	max-height: 200px;
+}
+img.smallSize{
+	max-width: 300px;
+	max-height: 300px;
+}
+img.normalSize{
+	max-width: 400px;
+	max-height: 400px;
+}
+img.largeSize{
+	max-width: 50%;
+	max-height: 50%;
+}
+img.left{
+	float: left;
+	margin-left: 0;
+}
+img.right{
+	float: right;
+	margin-right: 0;
+}
+@media (max-width:880px) {
+img{
+	margin: 0 20px;
+}
+}
+@media (max-width:1000px) {
+img.tinySize{
+	max-width: 80px;
+	max-height: 80px;
+}
+img.smallSize{
+	max-width: 180px;
+	max-height: 180px;
+}
+img.normalSize{
+	max-width: 270px;
+	max-height: 270px;
+}
+img.largeSize{
+	max-width: 320px;
+	max-height: 320px;
+}
+img.left{
+	float: left;
+}
+img.right{
+	float: right;
+}
+}
+@media (max-width:500px) {
+img.tinySize{
+	max-width: 100%;
+	max-height: 200px;
+}
+img.smallSize{
+	max-width: 100%;
+	max-height: 200px;
+}
+img.normalSize{
+	max-width: 100%;
+	max-height: 200px;
+}
+img.largeSize{
+	max-width: 100%;
+	max-height: 200px;
+}
+}
+
+/* NAVBAR */
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background: #F8F8F8;
+	z-index: 1031;
+	box-shadow: 0 0 10px #555;
+	font-size: 0;
+}
+nav table{
+	width: 100%;
+}
+nav a, nav a:hover{
+	color: #444;
+	text-decoration: none;
+}
+nav li{
+	width: 46%;
+	color: #444;
+	border-right: 1px solid #337ab7;
+	display: inline-block;
+	font-size: 16px;
+}
+nav li h4{
+	margin: 0 10px;
+	line-height: 50px;
+}
+nav .pos{
+	border-right: 2px solid #337ab7;
+}
+nav .neg{
+	border-right: 2px solid #555;
+}
+nav li ul{
+	position: absolute;
+	width: 23%;
+	padding: 0;
+}
+nav li ul li{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	display: inline-block;
+	background: #F8F8F8;
+	line-height: 40px;
+	border: none;
+	border-top: 1px solid #EEE;
+	height: 40px;
+	padding: 0 0 0 10px;
+}
+nav li:hover{
+	background: #EEE;
+	border-right: 2px solid #337ab7;
+}
+nav img{
+	width: 18px;
+	height: 18px;
+}
+nav button{
+	margin: 0 8px 0 0;
+}
+nav .btn{
+	border-radius: 2px;
+	padding: 5px 8px;
+}
+nav .mini{
+	border-radius: 2px;
+	padding: 0 0;
+}
+nav .mini img{
+	width: 32px;
+	height: 30px;
+}
+.offsetAnchor{
+	padding-top: 60px;
+	margin-top: -60px;
+}
+@media (max-width:880px) {
+#menuBoxes{
+	display: none;
+}
+nav li{
+	width: 50%;
+}
+nav li ul{
+	width: 50%;
+}
+}
+
+/* TIPS */
+
+.tip{
+	box-shadow: inset 0 0 10px #555;
+	background-color: #FFF;
+	background-image: url("../img/stripes.png");
+	background-position: center;
+    	background-size: cover;
+	border: 1px solid #555;
+	padding: 10px 14px;
+	font-size: 13px;
+	border-radius: 2px;
+}
+.tipImg{
+	font-size: 18px;
+}
+.tinySizeTip{
+	width: 22%;
+}
+.normalSizeTip{
+	width: 27%;
+}
+.largeSizeTip{
+	width: 33%;
+}
+.hugeSizeTip{
+	width: 40%;
+}
+.leftTip{
+	float: left;
+	margin: 0 15px 2px -5%;
+}
+.rightTip{
+	float: right;
+	margin: 0 -5% 2px 15px;
+}
+.tip h1{
+	font-size: 18px;
+	margin: 0 0 5px 0;
+}
+.tip .tipicon, .tip .quoteicon{
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+}
+.tip .tipicon{
+	background-image: url("../img/tip.png");
+	background-size: 100% 100%;
+}
+.tip .quoteicon{
+	background-image: url("../img/quote.png");
+	background-size: 100% 100%;
+}
+@media (max-width:1000px) {
+.tip{
+	padding: 8px;
+	font-size: 10px;
+}
+.leftTip{
+	float: left;
+	margin: 0 14px 4px 0;
+}
+.rightTip{
+	float: right;
+	margin: 0 0 4px 14px;
+}
+.tip h1{
+	font-size: 14px;
+	margin: 0 0 5px 0;
+}
+.tip .tipicon, .tip .quoteicon{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+}
+}
+@media (max-width:600px) {
+.tinySizeTip{
+	width: 100%;
+}
+.normalSizeTip{
+	width: 100%;
+}
+.largeSizeTip{
+	width: 100%;
+}
+.hugeSizeTip{
+	width: 100%;
+}
+}
+
+/* SOURCES */
+
+.sources{
+	text-align: left;
+	font-size: 13px;
+}
+ol{
+	-webkit-padding-start: 30px;
+}
+ol li{
+	padding-left: 10px;
+}
+@media (max-width:1000px) {
+.sources{
+	font-size: 9px;
+}
+}
+
+/* FOOTER */
+
+footer{
+	width: 100%;
+	background: #222;
+	color: #EEE;
+	padding: 30px 10%;
+	box-shadow: 0 0 10px #000;
+}
+footer .box{
+	border-left: 1px solid #EEE;
+	padding-left: 20px;
+	position: relative;
+}
+footer .box .tpt{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+}
